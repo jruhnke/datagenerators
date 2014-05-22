@@ -54,7 +54,7 @@ public class FakeMobileDevice extends MobileDevice {
     }
 
     private String getRandomCarrier() {
-        String[] telco = {"Verizon", "AT&T", "Sprint", "T-Mobile", "Virgin Mobile", "US Cellular", "Cricket Wireless"};
+        String[] telco = {"Verizon", "AT&T", "Sprint", "T-Mobile", "Virgin Mobile", "US Cellular", "Metro Southwest"};
         Random r = new Random();
         int randomInt = r.nextInt(telco.length);
         return telco[randomInt];

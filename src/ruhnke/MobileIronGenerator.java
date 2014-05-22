@@ -114,7 +114,7 @@ public class MobileIronGenerator {
             line.add(person.getFirstName());
             line.add(person.getLastName());
             line.add(person.getEmail());
-            line.add(getRandomPassword());
+            line.add(null);
             line.add("en-US");
             line.add(person.getName());
             line.add("FALSE");
